@@ -1,22 +1,22 @@
 package com.example.lib;
 
 public class Wind {
-    public Float speed;
-    public Float degree;
+    private Double speed = 2.57;
+    private Double degree = 295.003;
 
-    public void setSpeed(Float speed){
+    public void setSpeed(Double speed){
         this.speed = speed;
     }
 
-    public Float getSpeed(){
+    public Double getSpeed(){
         return speed;
     }
 
-    public void setDegree(Float degree){
+    public void setDegree(Double degree){
         this.degree = degree;
     }
 
-    public Float getDegree(){
+    public Double getDegree(){
         return degree;
     }
 }

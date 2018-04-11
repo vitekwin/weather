@@ -1,10 +1,10 @@
 package com.example.lib;
 
 public class Weather {
-    public Integer weatherid;
-    public String weathermain;
-    public String weatherdiscription;
-    public String weathericon;
+    private Integer weatherid = 800;
+    private String weathermain = "Clear";
+    private String weatherdiscription = "clear sky";
+    private String weathericon = "01d";
 
     public void setWeatherid(Integer weatherid){
         this.weatherid = weatherid;

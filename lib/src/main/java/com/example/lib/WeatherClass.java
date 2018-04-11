@@ -2,11 +2,11 @@ package com.example.lib;
 
 public class WeatherClass {
 
-    public Integer city_id;
-    public String city_name;
-    public Integer code;
-    public Integer timestamp;
-    public String base;
+    private Integer city_id = 511565;
+    private String city_name = "Penza";
+    private Integer code = 200;
+    private Integer timestamp = 1523445377;
+    private String base = "stations";
 
     public Coord coord;
     public Weather weather;
@@ -14,6 +14,13 @@ public class WeatherClass {
     public Wind wind;
     public Clouds clouds;
     public SysData sysdata;
+
+
+    /* public static void main(String[] args){
+        WeatherClass data = new WeatherClass();
+        data.setCity_name("Penza123");
+        System.out.println(data.getCity_name());
+    }*/
 
 
     public void setCity_id(Integer city_id){
@@ -57,5 +64,7 @@ public class WeatherClass {
     }
 
 }
+
+
 
 

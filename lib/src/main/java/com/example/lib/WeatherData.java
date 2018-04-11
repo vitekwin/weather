@@ -1,67 +1,67 @@
 package com.example.lib;
 
 public class WeatherData {
-    public Float temperature;
-    public Float pressure;
-    public Float humidity;
-    public Float temperaturemin;
-    public Float temperaturemax;
-    public Float seapressure;
-    public Float groundpressure;
+    private Double temperature = 281.991;
+    private Double pressure = 1001.87;
+    private Double humidity = 100.0;
+    private Double temperaturemin = 281.991;
+    private Double temperaturemax = 281.991;
+    private Double seapressure = 1027.62;
+    private Double groundpressure = 1001.87;
 
-    public void setTemperature(Float temperature){
+    public void setTemperature(Double temperature){
         this.temperature = temperature;
     }
 
-    public Float getTemperature(){
+    public Double getTemperature(){
         return temperature;
     }
 
-    public void setPressure(Float pressure){
+    public void setPressure(Double pressure){
         this.pressure = pressure;
     }
 
-    public Float getPressure(){
+    public Double getPressure(){
         return pressure;
     }
 
-    public void setHumidity(Float humidity){
+    public void setHumidity(Double humidity){
         this.humidity = humidity;
     }
 
-    public Float getHumidity(){
+    public Double getHumidity(){
         return humidity;
     }
 
-    public void setTemperaturemin(Float temperaturemin){
+    public void setTemperaturemin(Double temperaturemin){
         this.temperaturemin = temperaturemin;
     }
 
-    public Float getTemperaturemin(){
+    public Double getTemperaturemin(){
         return temperaturemin;
     }
 
-    public void setTemperaturemax(Float temperaturemax){
+    public void setTemperaturemax(Double temperaturemax){
         this.temperaturemax = temperaturemax;
     }
 
-    public Float getTemperaturemax(){
+    public Double getTemperaturemax(){
         return temperaturemax;
     }
 
-    public void setSeapressure(Float seapressure){
+    public void setSeapressure(Double seapressure){
         this.seapressure = seapressure;
     }
 
-    public Float getSeapressure(){
+    public Double getSeapressure(){
         return seapressure;
     }
 
-    public void setGroundpressure(Float groundpressure){
+    public void setGroundpressure(Double groundpressure){
         this.groundpressure = groundpressure;
     }
 
-    public Float getGroundpressure(){
+    public Double getGroundpressure(){
         return groundpressure;
     }
 

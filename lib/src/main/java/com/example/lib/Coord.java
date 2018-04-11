@@ -1,24 +1,23 @@
 package com.example.lib;
 
 public class Coord {
-    public Integer longitude;
-    public Integer latitude;
+    private Double longitude = 53.2;
+    private Double latitude = 45.0;
 
-    public void setLongitude(Integer longitude){
+    public void setLongitude(Double longitude){
         this.longitude = longitude;
     }
 
-    public Integer getLongitude(){
+    public Double getLongitude(){
         return longitude;
     }
 
-    public void setLatitude(Integer latitude){
+    public void setLatitude(Double latitude){
         this.latitude = latitude;
     }
 
-    public Integer getLatitude(){
+    public Double getLatitude(){
         return latitude;
     }
-
 
 }

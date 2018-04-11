@@ -1,13 +1,13 @@
 package com.example.lib;
 
 public class Clouds {
-    public Float cloudsall;
+    private Double cloudsall = 34.0;
 
-    public void setCloudsall(Float cloudsall){
+    public void setCloudsall(Double cloudsall){
         this.cloudsall = cloudsall;
     }
 
-    public Float getCloudsall(){
+    public Double getCloudsall(){
         return cloudsall;
     }
 }

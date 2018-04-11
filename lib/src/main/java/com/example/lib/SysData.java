@@ -1,16 +1,16 @@
 package com.example.lib;
 
 public class SysData {
-    public Float sysmessage;
-    public String country;
-    public Integer sunrise;
-    public Integer sunset;
+    private Double sysmessage = 0.0021;
+    private String country = "RU";
+    private Integer sunrise = 1523412576;
+    private Integer sunset = 1523462008;
 
-    public void setSysmessage(Float sysmessage){
+    public void setSysmessage(Double sysmessage){
         this.sysmessage = sysmessage;
     }
 
-    public Float getSysmessage(){
+    public Double getSysmessage(){
         return sysmessage;
     }
 
